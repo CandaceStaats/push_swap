@@ -1,7 +1,7 @@
 # push_swap
 A sorting algorithm program based in C. 
 The project does not allow the math.h library, and only allows for two official "stacks". The project was completed using radix sort and bit shifting to allow for only two "stacks". 
-The purpose of this project is to take numbers (Up to 500) with values between INT_MIN and INT_MAX and organize them from smallest to largest. The project was created using ~arrays~ vs ~linked lists~ because arrays are quicker when ran (though very difficult to implement with memory). 
+The purpose of this project is to take numbers (Up to 500) with values between INT_MIN and INT_MAX and organize them from smallest to largest. The project was created using /arrays/ vs /linked lists/ because arrays are quicker when ran (though very difficult to implement with memory). 
 
 HOW MY PUSH_SWAP WORKS
 1. The program is compiled using a Makefile that checks for -Werror -Wextra -Wall if you want to add another check you can add -g and use a debugger or also add -fsanitize=address...the tester does not work when these are added, so make sure to update the Makefile based on how you want to test. The tester does need Checker_Mac to work. COMPILE with make in the command line.
